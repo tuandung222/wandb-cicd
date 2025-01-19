@@ -1,6 +1,7 @@
 name: Basic CI
 
-on: [pull_request]
+# on: [pull_request]
+on: [push]
 
 jobs:
   my-first-job:
